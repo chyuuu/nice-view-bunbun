@@ -6,7 +6,7 @@
  * Replace boards/shields/nice_view_gem/assets/custom_logo.c with your
  * generated LVGL C image, keeping the exported symbol named `custom_logo`.
  */
-LV_IMG_DECLARE(custom_logo);
+LV_IMAGE_DECLARE(custom_logo);
 
 void draw_animation(lv_obj_t *canvas) {
     lv_obj_t *art = lv_img_create(canvas);
